@@ -56,6 +56,7 @@ $(document).ready(function () {
         } 
       }
       req.send(JSON.stringify(data));
+      console.log(data);
   }
    
 
