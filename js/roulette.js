@@ -4,9 +4,9 @@ var question3 = document.getElementsByClassName('question3')[0];
 var question4 = document.getElementsByClassName('question4')[0];
 var question;
 
-var realities = ["mythology","magic","apocalypse","gaming"];
+var realities = ["0","1","2","3"];
 function rand(){
-	// var playedReality = JSON.parse(user.playedReality);     //change as per object user 
+	// var playedReality = user.answered_questions / 5;     //change as per object user 
 
 		var random = Math.floor(Math.random()*4);
 		// do{

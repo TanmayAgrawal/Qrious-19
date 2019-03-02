@@ -5,13 +5,8 @@
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
   
-<<<<<<< HEAD
         var json = JSON.parse(this.responseText);
         // get username and score and display it
-=======
-        var json = JSON.parse(xhttp.responseText);
-          
->>>>>>> 1e8a35f943f6371a2c3ab5412f97db0b934603b1
         answered_questions = json.answered_questions;
           var score = json.score;
           var name = json.username;
