@@ -87,7 +87,7 @@ function sendRequest(reality) {
 	req.setRequestHeader("Content-Type", "application/json");
 	req.onreadystatechange = function() {
 		if(this.onreadystatechange == 4 && this.status ==200) {
-			question = this.responseText;
+			question = JSON.parse(this.responseText);
 		} 
 	}
 	req.send(JSON.stringify(data));

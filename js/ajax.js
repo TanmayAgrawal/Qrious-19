@@ -5,7 +5,8 @@
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
   
-        var json = JSON.parse(xhttp.responseText);
+        var json = JSON.parse(this.responseText);
+        // get username and score and display it
         answered_questions = json.answered_questions;
       }
     };
@@ -22,7 +23,7 @@
       ques.setRequestHeader("Content-Type", "application/json");
       ques.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          question = this.responseText;
+          question = JSON.parse(this.responseText);
         }
       };
       ques.send();

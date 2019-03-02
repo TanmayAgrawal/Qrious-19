@@ -72,16 +72,16 @@ var googleUser = {};
   }, 3000);
 
   //----------------------------------------
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var name = profile.getName();
-    }
-  };
-  xhttp.open("POST", "ajax_info.txt", true);
-  xhttp.send(name);
-}
+// function loadDoc() {
+//   var xhttp = new XMLHttpRequest();
+//   xhttp.onreadystatechange = function() {
+//     if (this.readyState == 4 && this.status == 200) {
+//       var name = profile.getName();
+//     }
+//   };
+//   xhttp.open("POST", "ajax_info.txt", true);
+//   xhttp.send(name);
+// }
 
 
 

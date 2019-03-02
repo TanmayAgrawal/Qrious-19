@@ -49,7 +49,9 @@ $(document).ready(function () {
             var url = window.location.href;
             // window.location.href = 
           }
-          question = this.responseText;
+          question = JSON.parse(this.responseText.question);
+          score = JSON.parse(this.responseText.score);
+          // append in html
           loadQuestion();
         } 
       }

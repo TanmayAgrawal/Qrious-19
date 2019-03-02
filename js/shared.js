@@ -5,7 +5,7 @@ function openLeaderboard() {
     req.setRequestHeader("Content-Type", "application/json");
     req.onreadystatechange = function() {
         if(this.onreadystatechange == 4 && this.status ==200) {
-            res = this.responseText;
+            res = JSON.parse(this.responseText);
             // window.location.href = window.location.href.slice() + '/leaderboard.html';
         } 
     }
