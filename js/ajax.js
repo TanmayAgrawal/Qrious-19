@@ -6,7 +6,10 @@
       if (this.readyState == 4 && this.status == 200) {
   
         var json = JSON.parse(xhttp.responseText);
+          
         answered_questions = json.answered_questions;
+          var score = json.score;
+          var name = json.username;
       }
     };
   
