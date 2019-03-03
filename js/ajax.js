@@ -10,6 +10,8 @@
         answered_questions = json.answered_questions;
           var score = json.score;
           var name = json.username;
+          document.getElementById("").innerHTML = score;
+          document.getElementById("").innerHTML = "Hello " + name;
       }
     };
   
