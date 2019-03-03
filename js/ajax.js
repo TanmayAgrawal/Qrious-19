@@ -31,21 +31,5 @@
       ques.send();
       // redirect to respective reality using answered_question%5
     }
-
-    if (reality == 0) {
-      window.location.href = ("url");
-    }
-    else if (reality == 1) {
-      window.location.href = ("url");
-    }
-    else if (reality == 2) {
-      window.location.href = ("url");
-    }
-    else if (reality == 3) {
-      window.location.href = ("url");
-    }
-    else if (reality == 4) {
-      window.location.href = ("url");
-    }
     
   
