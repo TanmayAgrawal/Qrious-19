@@ -30,7 +30,7 @@ body {
 	top: 0;
 	left: 0;
 }*/
-.card
+.card1
 {
 	width: 80%;
 	height: 75%;
@@ -74,7 +74,7 @@ body {
          background-color: #931406;
       }
    }
-h6{
+.card1 h6{
 	font-family: harry;
 	font-size: 11vw;
 	position: absolute; 
@@ -123,7 +123,7 @@ p {
      width: 100vw;
      background-size: cover;
   }*/
-  h6{
+ .card1 h6{
   font-family: harry;
   font-size: 15vw;
   position: absolute; 
@@ -131,7 +131,7 @@ p {
   left: 10vw; 
   color: #f5edc2;
 }
-button {
+.card1 button {
     background-color: #f7c77e;
     border: none;
     font-size: 7vw;

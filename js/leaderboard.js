@@ -43,10 +43,10 @@ function updateLeaderboardView() {
 
     let elements = []; // we'll need created elements to update colors later on
     // create elements for each player
-    let head = document.createElement("h2");
-    head.innerText = "LeaderBoard";
-    head.classList.add("heading");
-    leaderboard.appendChild(head);
+    // let head = document.createElement("h2");
+    // head.innerText = "LeaderBoard";
+    // head.classList.add("heading");
+    // leaderboard.appendChild(head);
     for(let i=0; i<scores.length; i++) {
         let name = document.createElement("div");
         let num = document.createElement("div");
@@ -65,7 +65,7 @@ function updateLeaderboardView() {
         name.innerText = scores[i].name;
         score.innerText = scores[i].score;
         let scoreRow = document.createElement("div");
-        scoreRow.classList.add("row");
+        scoreRow.classList.add("row1");
         scoreRow.appendChild(num);
         scoreRow.appendChild(name);
         scoreRow.appendChild(score);
